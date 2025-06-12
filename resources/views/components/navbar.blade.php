@@ -34,7 +34,7 @@
         </div>
     </nav>
 </header>
-@if(request()->path()!='/')
+{{-- @if(request()->path()!='/')
 <nav class="flex max-w-[1200px] mx-auto"aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse my-[20px]">
     <li class="inline-flex items-center">
@@ -75,4 +75,4 @@
     @endif
     </ol>
 </nav>
-@endif
+@endif --}}
