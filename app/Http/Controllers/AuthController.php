@@ -11,6 +11,12 @@ use Illuminate\Validation\ValidationException;
 class AuthController extends Controller
 {
     public function index() {
+        // User::create([
+        //     'name'=>'admin','email'=>'admin@gmail.com', 'password'=>'$2y$12$tzmGUv7E0pN6pnx9UdrJful4WIVQYuTxTVvyvXpZt2P5wMqLpLPky', 'role'=>'admin'
+        // ]);
+        // $user = User::find(1);
+        // $user->role="admin";
+        // $user->update();
         return view('auth.login');
     }
 

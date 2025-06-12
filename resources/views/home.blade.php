@@ -5,6 +5,7 @@ Cloths-Shop
 @endsection
 
 @section('content')
+
 <section id="home" class="max-w-[1200px] m-auto pt-[20px] px-[20px]">
     <div class="container flex h-full m-auto flex-wrap">
         <div class="left-side flex-1/2 flex flex-col justify-center md:text-left gap-[20px] text-center">
